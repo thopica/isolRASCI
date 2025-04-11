@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Verantwortungsmatrix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="branding">
+      <img src="isolution-logo.svg" alt="Logo" />
+      <span>Managed Cloud Services</span>
+    </div>
+    <nav>
+      <a href="#">Managed Cloud Services</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Verantwortungsmatrix</h1>
+
+    <div class="filters">
+      <label>
+        Service Kategorie:
+        <select id="filterKategorie"></select>
+      </label>
+      <label>
+        Servicebeschreibung:
+        <select id="filterBeschreibung"></select>
+      </label>
+      <label>
+        Verantwortung:
+        <select id="filterVerantwortung">
+          <option value="">Alle</option>
+          <option value="isolutions">isolutions</option>
+          <option value="kunde">customer</option>
+        </select>
+      </label>
+    </div>
+
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Service Kategorie</th>
+          <th>Servicebeschreibung</th>
+          <th>Aktivität</th>
+          <th>isolutions</th>
+          <th>Kunde</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
