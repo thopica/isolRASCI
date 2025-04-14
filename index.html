@@ -9,11 +9,9 @@
   <header>
     <div class="branding">
       <img src="isolution-logo.svg" alt="Logo" />
-      <span>Managed Cloud Services</span>
+      <span> <a href="https://mcs.isolutions.ch/" style="color: inherit; text-decoration: none;">Managed Cloud Services</a></span>
     </div>
-    <nav>
-      <a href="#">Managed Cloud Services</a>
-    </nav>
+   
   </header>
 
   <main>
@@ -36,6 +34,11 @@
           <option value="kunde">customer</option>
         </select>
       </label>
+      <label>
+        Suche:
+        <input type="text" id="searchInput" placeholder="Suchbegriff..." />
+      </label>
+      <button id="resetButton">Reset</button>
     </div>
 
     <table id="dataTable">

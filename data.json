@@ -1,1 +1,730 @@
-[{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Identity Management","aktivitaet":"Benutzer-Lifecycle (Erstellen\/Ändern\/Löschen)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Identity Management","aktivitaet":"Gruppenmanagement (Erstellen\/Verwalten\/Löschen)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Identity Management","aktivitaet":"Passwort- & MFA-Verwaltung","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Identity Management","aktivitaet":"Verzeichnis-Synchronisierung (Azure AD Connect)","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Monitoring Microsoft 365","aktivitaet":"Überwachung des Service-Status (M365 Admin Center)","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Monitoring Microsoft 365","aktivitaet":"Einrichten von Alerts & Dashboards","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Monitoring Microsoft 365","aktivitaet":"Reporting zu Auslastung & Performance","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Monitoring Microsoft 365","aktivitaet":"Untersuchung von Störungen \/ Service-Degradationen","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Cloud Security Management","aktivitaet":"Implementierung\/Verwaltung von Sicherheits-Baselines","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Cloud Security Management","aktivitaet":"Bedrohungserkennung & Incident Response (Identity Management & Email Kommunikation)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Cloud Security Management1","aktivitaet":"Überprüfung & Optimierung des Secure Score","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Cloud Security Management1","aktivitaet":"Konfiguration Conditional Access \/ MFA","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Microsoft 365 Change-Management","aktivitaet":"Beobachtung der Microsoft 365 Roadmap & Updates","isolutions":"R","kunde":"I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Microsoft 365 Change-Management","aktivitaet":"Planung & Kommunikation von Änderungen an den Kunden","isolutions":"R, A","kunde":"S, C, I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Microsoft 365 Change-Management","aktivitaet":"Konfigurationsanpassungen bei neuen Funktionen","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Microsoft 365 Change-Management","aktivitaet":"Freigabeprozess für größere Änderungen (Change Approval)","isolutions":"S, C","kunde":"R, A"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Lizenz Management","aktivitaet":"Lizenzzuweisung\/-entzug","isolutions":"C, S","kunde":"R, A (ACMP AGB)"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Lizenz Management","aktivitaet":"Überwachung & Verlängerung von Lizenzen","isolutions":"S","kunde":"R, A (ACMP AGB)"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Lizenz Management","aktivitaet":"Planung von Lizenzkapazitäten (Seats, SKUs)","isolutions":"C, S","kunde":"A"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Lizenz Management","aktivitaet":"Lizenz\/Service-Portfolio & Consulting","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Cloud Management","serviceBeschreibung":"Lizenz Management","aktivitaet":"Lizenz-Reporting","isolutions":"R","kunde":"I"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Desk","aktivitaet":"Ticketannahme, Kategorisierung & Priorisierung (gemäss SLA)","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Desk","aktivitaet":"Fehleranalyse & Erstlösung","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Desk","aktivitaet":"Eskalation an 2nd-\/3rd-Level-Support (intern bei isolutions)","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Desk","aktivitaet":"Koordination mit Drittanbietern (z. B. Software-Hersteller, falls erforderlich)","isolutions":"R","kunde":"I, C"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Desk","aktivitaet":"Kommunikation mit dem SPOC oder Endbenutzer (Zwischenstatus, Lösungshinweise)","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Desk","aktivitaet":"Ticketabschluss & Qualitätsprüfung","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Desk","aktivitaet":"Bestätigung Ticketschliessung","isolutions":"I","kunde":"R, A"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Portal","aktivitaet":"Bereitstellung Service Portal (ServiceNow)","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Portal","aktivitaet":"User Management (Erfassung, Löschung, Mutationen)","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Portal","aktivitaet":"Erstellung Cases","isolutions":"C, I","kunde":"R, A"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Management","aktivitaet":"SLA-\/Leistungsüberwachung (Service Level Monitoring)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Management","aktivitaet":"Service Review Meetings durchführen","isolutions":"R","kunde":"A, C"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Management","aktivitaet":"Reporting & Kennzahlenbereitstellung (z. B. Tickets, Reaktionszeiten, Trends)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Management","aktivitaet":"Eskalationsmanagement bei kritischen Störungen oder SLA-Verletzungen","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Support","serviceBeschreibung":"Service Management","aktivitaet":"Kontinuierliche Serviceverbesserung","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Support","serviceBeschreibung":"Dokumentation & Knowhow Management","aktivitaet":"Aufbau und Pflege der Kundendokumentation","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Support","serviceBeschreibung":"Dokumentation & Knowhow Management","aktivitaet":"Dokumentation von Änderungen und Konfigurationen (Change-Dokumentation)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Support","serviceBeschreibung":"Dokumentation & Knowhow Management","aktivitaet":"Pflege von Betriebshandbüchern und Supportanleitungen (Runbooks, SOPs)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Support","serviceBeschreibung":"Dokumentation & Knowhow Management","aktivitaet":"Knowhow-Transfer zu neuen Mitarbeitenden (intern bei isolutions)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Change Management","serviceBeschreibung":"Change Management","aktivitaet":"Change-Bedarf erkennen und Eingabe","isolutions":"R, A (technisch)","kunde":"R, A (fachlich)"},{"serviceKategorie":"Change Management","serviceBeschreibung":"Change Management","aktivitaet":"Change-Bewertung & Planung","isolutions":"R, A  ","kunde":"C, I"},{"serviceKategorie":"Change Management","serviceBeschreibung":"Change Management","aktivitaet":"Genehmigung \/ Freigabe","isolutions":"C, I","kunde":"A"},{"serviceKategorie":"Change Management","serviceBeschreibung":"Change Management","aktivitaet":"Umsetzung der Changes","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Change Management","serviceBeschreibung":"Change Management","aktivitaet":"Kommunikation & Dokumentation","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Change Management","serviceBeschreibung":"Change Management","aktivitaet":"Koordination und Planung CAB (change advisory board)","isolutions":"R","kunde":"C, I"},{"serviceKategorie":"Change Management","serviceBeschreibung":"Change Management","aktivitaet":"Change User Acceptance Tests","isolutions":"I, ","kunde":"R, A  "},{"serviceKategorie":"Moderne Zusammenarbeit","serviceBeschreibung":"Office 365, Exchange Online, SharePoint Online, Teams inkl. Telefonie","aktivitaet":"Mailbox-Management (Erstellen\/Löschen, Rechteverwaltung)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Moderne Zusammenarbeit","serviceBeschreibung":"Office 365, Exchange Online, SharePoint Online, Teams inkl. Telefonie","aktivitaet":"SharePoint-Sammlungen (Erstellen, Speicherzuweisung, Berechtigungen)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Moderne Zusammenarbeit","serviceBeschreibung":"Office 365, Exchange Online, SharePoint Online, Teams inkl. Telefonie","aktivitaet":"Teams-Arbeitsbereiche & Kanäle (Einrichtung, Archivierung, Berechtigungen)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Moderne Zusammenarbeit","serviceBeschreibung":"Office 365, Exchange Online, SharePoint Online, Teams inkl. Telefonie","aktivitaet":"Endbenutzer-Support1 (sofern höherwertiger Vertrag)","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Moderne Zusammenarbeit","serviceBeschreibung":"Office 365, Exchange Online, SharePoint Online, Teams inkl. Telefonie","aktivitaet":"Konfiguration von Kollaborations-Richtlinien (externe Freigabe, Teams\/SharePoint-Einstellungen)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Moderne Zusammenarbeit","serviceBeschreibung":"Teams Telefonie","aktivitaet":"Konfiguration von Anrufwarteschlangen \/ Auto Attendants","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Moderne Zusammenarbeit","serviceBeschreibung":"Teams Telefonie","aktivitaet":"Zuweisung von Telefonnummern & Richtlinien","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Moderne Zusammenarbeit","serviceBeschreibung":"Teams Telefonie","aktivitaet":"Troubleshooting zu Sprachqualität \/ Meetings","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Moderne Zusammenarbeit","serviceBeschreibung":"Teams Telefonie","aktivitaet":"Anpassung von Voice-Routing (Wählpläne, PSTN-Anbindung)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Geräte Verwaltung (MDM)1","aktivitaet":"Autopilot & Enrollment (firmen- oder BYOD-Geräte)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Geräte Verwaltung (MDM)1","aktivitaet":"Compliance- & Konfigurationsprofile (Richtlinien)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Geräte Verwaltung (MDM)1","aktivitaet":"Remote Wipe \/ Sperren bei Gerätediebstahl","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Geräte Verwaltung (MDM)1","aktivitaet":"Fehlersuche bei Enrollment- & Policy-Konflikten","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Windows Update Management","aktivitaet":"Definition von Update-Ringen & Zeitplänen","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Windows Update Management","aktivitaet":"Überwachung der Patch-Compliance","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Windows Update Management","aktivitaet":"Fehlerbehebung bei gescheiterten Updates","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Compliance Management","aktivitaet":"Einrichtung von DLP-Richtlinien (Data Loss Prevention)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Compliance Management","aktivitaet":"Retentions- & Sensitivitätslabels","isolutions":"R, A","kunde":"S, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Compliance Management","aktivitaet":"eDiscovery & Legal Holds","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Compliance Management","aktivitaet":"Zugriffsprüfungen (privilegierte Rollen, externe Freigaben)","isolutions":"R","kunde":"A, C"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Software Update Management","aktivitaet":"Verwaltung von Well-known-Apps Updates","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Software Update Management","aktivitaet":"Zeitplanung für 3rd-Party-Updates (sofern im Scope)","isolutions":"A","kunde":"R, S"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Software Update Management","aktivitaet":"Software-Paketierung (Windows-Desktop-Apps)","isolutions":"R","kunde":"A, C"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Software Update Management","aktivitaet":"Überwachung des Update-Status & Compliance","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Software Update Management","aktivitaet":"Behebung von Update-Konflikten \/ -Fehlern","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Cloud Printing","aktivitaet":"Druckerwarteschlangen & -treiber","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Cloud Printing","aktivitaet":"Konfiguration von Druckquoten & -regeln","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Cloud Printing","aktivitaet":"Troubleshooting (Spooler-Probleme)","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Cloud Printing","aktivitaet":"Aktualisierung der Printix-Software","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Mobile Application Management (MAM)1","aktivitaet":"App-Bereitstellung \/ -Updates","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Mobile Application Management (MAM)1","aktivitaet":"App-Schutzrichtlinien (z. B. selective Wipe)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Mobile Application Management (MAM)1","aktivitaet":"Außerbetriebnahme von nicht benötigten Apps","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"Mobile Application Management (MAM)1","aktivitaet":"Monitoring & Reporting von App-Nutzung","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"isolutions Shop","aktivitaet":"Bestellung & Leasing neuer Hardware & Assets","isolutions":"C, S","kunde":"R, A"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"isolutions Shop","aktivitaet":"Hardware-\/Software-Beschaffung","isolutions":"C, S","kunde":"R, A"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"isolutions Shop","aktivitaet":"Hardware-Portfolio & Consulting","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Geräte Management","serviceBeschreibung":"isolutions Shop","aktivitaet":"Benutzer Support","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Endpoint Protection (Preview)1","aktivitaet":"Deployment von Endpoint-Sicherheitsagenten (z. B. Defender)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Endpoint Protection (Preview)1","aktivitaet":"Überwachung von Sicherheitswarnungen & Bedrohungen","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Endpoint Protection (Preview)1","aktivitaet":"Reaktion auf Sicherheitsvorfälle (Geräte isolieren etc.)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Endpoint Protection (Preview)1","aktivitaet":"Richtlinien-Tuning \/ Ausnahmen (Whitelist, Exclusions)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Luware Nimbus Managed Service1","aktivitaet":"Ersteinrichtung (Warteschlangen, Workflows)","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Luware Nimbus Managed Service1","aktivitaet":"Agenten-\/Benutzerverwaltung","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Luware Nimbus Managed Service1","aktivitaet":"Konfiguration von Routing & Reporting","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Luware Nimbus Managed Service1","aktivitaet":"Konfigurationsanpassungen & Updates","isolutions":"R","kunde":"A, C"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"SEPPmail Managed Service1","aktivitaet":"Verwaltung von Zertifikaten & Verschlüsselungspolicies","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"SEPPmail Managed Service1","aktivitaet":"User-Support (Schlüsselverwaltung, Secure-Mail-Zugriff)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"SEPPmail Managed Service1","aktivitaet":"Größere Policy-Änderungen","isolutions":"R","kunde":"A, C"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"SCEPman Managed Service1","aktivitaet":"Zertifikats-Policy-Konfiguration","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"SCEPman Managed Service1","aktivitaet":"Erneuerung & Widerruf von Zertifikaten","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"SCEPman Managed Service1","aktivitaet":"Fehlersuche bei Zertifikatsproblemen","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Cloud Backup für Microsoft 3651","aktivitaet":"Backup-Zeitpläne & Richtlinien (z. B. AvePoint)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Cloud Backup für Microsoft 3651","aktivitaet":"Überwachung (Erfolgs-\/Fehlermeldungen)","isolutions":"R, A","kunde":"I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Cloud Backup für Microsoft 3651","aktivitaet":"Restore-Anfragen (Mail, SharePoint, Teams)","isolutions":"R, A","kunde":"C, I"},{"serviceKategorie":"Optionale Services","serviceBeschreibung":"Cloud Backup für Microsoft 3651","aktivitaet":"Updates & Lizenzierung der Backup-Software","isolutions":"R, A","kunde":"C, I"}]
+[
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#identity-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Identity Management</a>",
+    "aktivitaet": "Benutzer-Lifecycle (Erstellen/Ändern/Löschen)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#identity-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Identity Management</a>",
+    "aktivitaet": "Gruppenmanagement (Erstellen/Verwalten/Löschen)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#identity-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Identity Management</a>",
+    "aktivitaet": "Passwort- & MFA-Verwaltung",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#identity-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Identity Management</a>",
+    "aktivitaet": "Verzeichnis-Synchronisierung (Azure AD Connect)",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#monitoring-microsoft-365\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Monitoring Microsoft 365</a>",
+    "aktivitaet": "Überwachung des Service-Status (M365 Admin Center)",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#monitoring-microsoft-365\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Monitoring Microsoft 365</a>",
+    "aktivitaet": "Einrichten von Alerts & Dashboards",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#monitoring-microsoft-365\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Monitoring Microsoft 365</a>",
+    "aktivitaet": "Reporting zu Auslastung & Performance",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#monitoring-microsoft-365\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Monitoring Microsoft 365</a>",
+    "aktivitaet": "Untersuchung von Störungen / Service-Degradationen",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#cloud-security-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Security Management</a>",
+    "aktivitaet": "Implementierung/Verwaltung von Sicherheits-Baselines",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#cloud-security-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Security Management</a>",
+    "aktivitaet": "Bedrohungserkennung & Incident Response (Identity Management & Email Kommunikation)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#cloud-security-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Security Management1</a>",
+    "aktivitaet": "Überprüfung & Optimierung des Secure Score",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#cloud-security-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Security Management1</a>",
+    "aktivitaet": "Konfiguration Conditional Access / MFA",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#microsoft-365-change-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Microsoft 365 Change-Management</a>",
+    "aktivitaet": "Beobachtung der Microsoft 365 Roadmap & Updates",
+    "isolutions": "R",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#microsoft-365-change-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Microsoft 365 Change-Management</a>",
+    "aktivitaet": "Planung & Kommunikation von Änderungen an den Kunden",
+    "isolutions": "R, A",
+    "kunde": "S, C, I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#microsoft-365-change-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Microsoft 365 Change-Management</a>",
+    "aktivitaet": "Konfigurationsanpassungen bei neuen Funktionen",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#microsoft-365-change-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Microsoft 365 Change-Management</a>",
+    "aktivitaet": "Freigabeprozess für größere Änderungen (Change Approval)",
+    "isolutions": "S, C",
+    "kunde": "R, A"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#lizenz-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Lizenz Management</a>",
+    "aktivitaet": "Lizenzzuweisung/-entzug",
+    "isolutions": "C, S",
+    "kunde": "R, A (ACMP AGB)"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#lizenz-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Lizenz Management</a>",
+    "aktivitaet": "Überwachung & Verlängerung von Lizenzen",
+    "isolutions": "S",
+    "kunde": "R, A (ACMP AGB)"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#lizenz-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Lizenz Management</a>",
+    "aktivitaet": "Planung von Lizenzkapazitäten (Seats, SKUs)",
+    "isolutions": "C, S",
+    "kunde": "A"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#lizenz-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Lizenz Management</a>",
+    "aktivitaet": "Lizenz/Service-Portfolio & Consulting",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Cloud Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/cmgmt#lizenz-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Lizenz Management</a>",
+    "aktivitaet": "Lizenz-Reporting",
+    "isolutions": "R",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-desk\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Desk</a>",
+    "aktivitaet": "Ticketannahme, Kategorisierung & Priorisierung (gemäss SLA)",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-desk\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Desk</a>",
+    "aktivitaet": "Fehleranalyse & Erstlösung",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-desk\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Desk</a>",
+    "aktivitaet": "Eskalation an 2nd-/3rd-Level-Support (intern bei isolutions)",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-desk\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Desk</a>",
+    "aktivitaet": "Koordination mit Drittanbietern (z. B. Software-Hersteller, falls erforderlich)",
+    "isolutions": "R",
+    "kunde": "I, C, S"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-desk\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Desk</a>",
+    "aktivitaet": "Kommunikation mit dem SPOC oder Endbenutzer (Zwischenstatus, Lösungshinweise)",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-desk\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Desk</a>",
+    "aktivitaet": "Ticketabschluss & Qualitätsprüfung",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-desk\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Desk</a>",
+    "aktivitaet": "Bestätigung Ticketschliessung",
+    "isolutions": "I",
+    "kunde": "R, A"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-portal\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Portal</a>",
+    "aktivitaet": "Bereitstellung Service Portal (ServiceNow)",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-portal\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Portal</a>",
+    "aktivitaet": "User Management Service Portal (Erfassung, Löschung, Mutationen)",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-portal\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Portal</a>",
+    "aktivitaet": "Erstellung Cases",
+    "isolutions": "C, I",
+    "kunde": "R, A"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Management</a>",
+    "aktivitaet": "SLA-/Leistungsüberwachung (Service Level Monitoring)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Management</a>",
+    "aktivitaet": "Service Review Meetings durchführen",
+    "isolutions": "R",
+    "kunde": "A, C"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Management</a>",
+    "aktivitaet": "Reporting & Kennzahlenbereitstellung (z. B. Tickets, Reaktionszeiten, Trends)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Management</a>",
+    "aktivitaet": "Eskalationsmanagement bei kritischen Störungen oder SLA-Verletzungen",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#service-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Service Management</a>",
+    "aktivitaet": "Kontinuierliche Serviceverbesserung",
+    "isolutions": "R, A",
+    "kunde": "I, C, S"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#dokumentation--knowhow-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Dokumentation & Knowhow Management</a>",
+    "aktivitaet": "Aufbau und Pflege der Kundendokumentation",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#dokumentation--knowhow-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Dokumentation & Knowhow Management</a>",
+    "aktivitaet": "Dokumentation von Änderungen und Konfigurationen (Change-Dokumentation)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#dokumentation--knowhow-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Dokumentation & Knowhow Management</a>",
+    "aktivitaet": "Pflege von Betriebshandbüchern und Supportanleitungen (Runbooks, SOPs)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Support",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/support/#dokumentation--knowhow-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Dokumentation & Knowhow Management</a>",
+    "aktivitaet": "Knowhow-Transfer zu neuen Mitarbeitenden (intern bei isolutions)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Change Management",
+    "serviceBeschreibung": "Change Management",
+    "aktivitaet": "Change-Bedarf erkennen und Eingabe",
+    "isolutions": "R, A (technisch)",
+    "kunde": "R, A (fachlich)"
+  },
+  {
+    "serviceKategorie": "Change Management",
+    "serviceBeschreibung": "Change Management",
+    "aktivitaet": "Change-Bewertung & Planung",
+    "isolutions": "R, A  ",
+    "kunde": "C, I, S"
+  },
+  {
+    "serviceKategorie": "Change Management",
+    "serviceBeschreibung": "Change Management",
+    "aktivitaet": "Business Continuity & Rollback",
+    "isolutions": "R, A  ",
+    "kunde": "C, I, S"
+  },
+  {
+    "serviceKategorie": "Change Management",
+    "serviceBeschreibung": "Change Management",
+    "aktivitaet": "Genehmigung / Freigabe",
+    "isolutions": "C, I",
+    "kunde": "R, A"
+  },
+  {
+    "serviceKategorie": "Change Management",
+    "serviceBeschreibung": "Change Management",
+    "aktivitaet": "Umsetzung der Changes",
+    "isolutions": "R, A",
+    "kunde": "I, S"
+  },
+  {
+    "serviceKategorie": "Change Management",
+    "serviceBeschreibung": "Change Management",
+    "aktivitaet": "Kommunikation & Dokumentation",
+    "isolutions": "R, A",
+    "kunde": "I, S"
+  },
+  {
+    "serviceKategorie": "Change Management",
+    "serviceBeschreibung": "Change Management",
+    "aktivitaet": "Enduser Adoption & Communication",
+    "isolutions": "C, I, S",
+    "kunde": "R, A"
+  },
+  {
+    "serviceKategorie": "Change Management",
+    "serviceBeschreibung": "Change Management",
+    "aktivitaet": "Koordination und Planung CAB (change advisory board)",
+    "isolutions": "C, I, S",
+    "kunde": "R, A"
+  },
+  {
+    "serviceKategorie": "Change Management",
+    "serviceBeschreibung": "Change Management",
+    "aktivitaet": "Change User Acceptance Tests",
+    "isolutions": "C, I, S",
+    "kunde": "R, A  "
+  },
+  {
+    "serviceKategorie": "Moderne Zusammenarbeit ",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/modernwork\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Office 365, Exchange Online, SharePoint Online, Teams inkl. Telefonie</a>",
+    "aktivitaet": "Mailbox-Management (Erstellen/Löschen, Rechteverwaltung)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Moderne Zusammenarbeit ",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/modernwork\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Office 365, Exchange Online, SharePoint Online, Teams inkl. Telefonie</a>",
+    "aktivitaet": "SharePoint-Sammlungen (Erstellen, Speicherzuweisung, Berechtigungen)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Moderne Zusammenarbeit ",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/modernwork\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Office 365, Exchange Online, SharePoint Online, Teams inkl. Telefonie</a>",
+    "aktivitaet": "Teams-Arbeitsbereiche & Kanäle (Einrichtung, Archivierung, Berechtigungen)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Moderne Zusammenarbeit ",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/modernwork\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Office 365, Exchange Online, SharePoint Online, Teams inkl. Telefonie</a>",
+    "aktivitaet": "Endbenutzer-Support1 (sofern höherwertiger Vertrag)",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Moderne Zusammenarbeit ",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/modernwork\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Office 365, Exchange Online, SharePoint Online, Teams inkl. Telefonie</a>",
+    "aktivitaet": "Konfiguration von Kollaborations-Richtlinien (externe Freigabe, Teams/SharePoint-Einstellungen)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Moderne Zusammenarbeit ",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/modernwork#teams-telefonie\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Teams Telefonie</a>",
+    "aktivitaet": "Konfiguration von Anrufwarteschlangen / Auto Attendants",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Moderne Zusammenarbeit ",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/modernwork#teams-telefonie\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Teams Telefonie</a>",
+    "aktivitaet": "Zuweisung von Telefonnummern & Richtlinien",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Moderne Zusammenarbeit ",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/modernwork#teams-telefonie\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Teams Telefonie</a>",
+    "aktivitaet": "Troubleshooting zu Sprachqualität / Meetings",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Moderne Zusammenarbeit ",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/modernwork#teams-telefonie\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Teams Telefonie</a>",
+    "aktivitaet": "Anpassung von Voice-Routing (Wählpläne, PSTN-Anbindung)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#ger%C3%A4te-verwaltung-mdm\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Geräte Verwaltung (MDM)1</a>",
+    "aktivitaet": "Autopilot & Enrollment (firmen- oder BYOD-Geräte)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#ger%C3%A4te-verwaltung-mdm\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Geräte Verwaltung (MDM)1</a>",
+    "aktivitaet": "Compliance- & Konfigurationsprofile (Richtlinien)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#ger%C3%A4te-verwaltung-mdm\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Geräte Verwaltung (MDM)1</a>",
+    "aktivitaet": "Remote Wipe / Sperren bei Gerätediebstahl",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#ger%C3%A4te-verwaltung-mdm\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Geräte Verwaltung (MDM)1</a>",
+    "aktivitaet": "Fehlersuche bei Enrollment- & Policy-Konflikten",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#windows-update-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Windows Update Management</a>",
+    "aktivitaet": "Definition von Update-Ringen & Zeitplänen",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#windows-update-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Windows Update Management</a>",
+    "aktivitaet": "Überwachung der Patch-Compliance",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#windows-update-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Windows Update Management</a>",
+    "aktivitaet": "Fehlerbehebung bei gescheiterten Updates",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#compliance-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Compliance Management</a>",
+    "aktivitaet": "Einrichtung von DLP-Richtlinien (Data Loss Prevention)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#compliance-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Compliance Management</a>",
+    "aktivitaet": "Retentions- & Sensitivitätslabels",
+    "isolutions": "R, A",
+    "kunde": "S, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#compliance-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Compliance Management</a>",
+    "aktivitaet": "eDiscovery & Legal Holds",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#compliance-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Compliance Management</a>",
+    "aktivitaet": "Zugriffsprüfungen (privilegierte Rollen, externe Freigaben)",
+    "isolutions": "R",
+    "kunde": "A, C"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#software-update-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Software Update Management</a>",
+    "aktivitaet": "Verwaltung von Well-known-Apps Updates",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#software-update-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Software Update Management</a>",
+    "aktivitaet": "Zeitplanung für 3rd-Party-Updates (sofern im Scope)",
+    "isolutions": "A",
+    "kunde": "R, S"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#software-update-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Software Update Management</a>",
+    "aktivitaet": "Software-Paketierung (Windows-Desktop-Apps)",
+    "isolutions": "R",
+    "kunde": "A, C"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#software-update-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Software Update Management</a>",
+    "aktivitaet": "Überwachung des Update-Status & Compliance",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#software-update-management\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Software Update Management</a>",
+    "aktivitaet": "Behebung von Update-Konflikten / -Fehlern",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#cloud-printing\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Printing</a>",
+    "aktivitaet": "Druckerwarteschlangen & -treiber",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#cloud-printing\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Printing</a>",
+    "aktivitaet": "Konfiguration von Druckquoten & -regeln",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#cloud-printing\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Printing</a>",
+    "aktivitaet": "Troubleshooting (Spooler-Probleme)",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#cloud-printing\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Printing</a>",
+    "aktivitaet": "Aktualisierung der Printix-Software",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#mobile-application-management-mam\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Mobile Application Management (MAM)1</a>",
+    "aktivitaet": "App-Bereitstellung / -Updates",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#mobile-application-management-mam\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Mobile Application Management (MAM)1</a>",
+    "aktivitaet": "App-Schutzrichtlinien (z. B. selective Wipe)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#mobile-application-management-mam\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Mobile Application Management (MAM)1</a>",
+    "aktivitaet": "Außerbetriebnahme von nicht benötigten Apps",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#mobile-application-management-mam\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Mobile Application Management (MAM)1</a>",
+    "aktivitaet": "Monitoring & Reporting von App-Nutzung",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#isolutions-shop\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">isolutions Shop</a>",
+    "aktivitaet": "Bestellung & Leasing neuer Hardware & Assets",
+    "isolutions": "C, S",
+    "kunde": "R, A"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#isolutions-shop\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">isolutions Shop</a>",
+    "aktivitaet": "Hardware-/Software-Beschaffung",
+    "isolutions": "C, S",
+    "kunde": "R, A"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#isolutions-shop\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">isolutions Shop</a>",
+    "aktivitaet": "Hardware-Portfolio & Consulting",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Geräte Management",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/devicemgmt#isolutions-shop\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">isolutions Shop</a>",
+    "aktivitaet": "Benutzer Support",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#endpoint-protection-preview\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Endpoint Protection (Preview)1</a>",
+    "aktivitaet": "Deployment von Endpoint-Sicherheitsagenten (z. B. Defender)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#endpoint-protection-preview\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Endpoint Protection (Preview)1</a>",
+    "aktivitaet": "Überwachung von Sicherheitswarnungen & Bedrohungen",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#endpoint-protection-preview\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Endpoint Protection (Preview)1</a>",
+    "aktivitaet": "Reaktion auf Sicherheitsvorfälle (Geräte isolieren etc.)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#endpoint-protection-preview\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Endpoint Protection (Preview)1</a>",
+    "aktivitaet": "Richtlinien-Tuning / Ausnahmen (Whitelist, Exclusions)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#luware-nimbus-managed-service\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Luware Nimbus Managed Service1</a>",
+    "aktivitaet": "Ersteinrichtung (Warteschlangen, Workflows)",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#luware-nimbus-managed-service\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Luware Nimbus Managed Service1</a>",
+    "aktivitaet": "Agenten-/Benutzerverwaltung",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#luware-nimbus-managed-service\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Luware Nimbus Managed Service1</a>",
+    "aktivitaet": "Konfiguration von Routing & Reporting",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#luware-nimbus-managed-service\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Luware Nimbus Managed Service1</a>",
+    "aktivitaet": "Konfigurationsanpassungen & Updates",
+    "isolutions": "R",
+    "kunde": "A, C"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#seppmail-managed-service\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">SEPPmail Managed Service1</a>",
+    "aktivitaet": "Verwaltung von Zertifikaten & Verschlüsselungspolicies",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#seppmail-managed-service\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">SEPPmail Managed Service1</a>",
+    "aktivitaet": "User-Support (Schlüsselverwaltung, Secure-Mail-Zugriff)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#seppmail-managed-service\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">SEPPmail Managed Service1</a>",
+    "aktivitaet": "Größere Policy-Änderungen",
+    "isolutions": "R",
+    "kunde": "A, C"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#scepman-managed-service\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">SCEPman Managed Service1</a>",
+    "aktivitaet": "Zertifikats-Policy-Konfiguration",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#scepman-managed-service\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">SCEPman Managed Service1</a>",
+    "aktivitaet": "Erneuerung & Widerruf von Zertifikaten",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#scepman-managed-service\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">SCEPman Managed Service1</a>",
+    "aktivitaet": "Fehlersuche bei Zertifikatsproblemen",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#cloud-backup-f%C3%BCr-microsoft-365\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Backup für Microsoft 3651</a>",
+    "aktivitaet": "Backup-Zeitpläne & Richtlinien (z. B. AvePoint)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#cloud-backup-f%C3%BCr-microsoft-366\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Backup für Microsoft 3651</a>",
+    "aktivitaet": "Überwachung (Erfolgs-/Fehlermeldungen)",
+    "isolutions": "R, A",
+    "kunde": "I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#cloud-backup-f%C3%BCr-microsoft-367\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Backup für Microsoft 3651</a>",
+    "aktivitaet": "Restore-Anfragen (Mail, SharePoint, Teams)",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  },
+  {
+    "serviceKategorie": "Optionale Services",
+    "serviceBeschreibung": "<a href=\"https://mcs.isolutions.ch/docs/2024.04/waas/optionaleservices#cloud-backup-f%C3%BCr-microsoft-368\" target=\"_blank\" style=\"text-decoration: none; color: #000000;\">Cloud Backup für Microsoft 3651</a>",
+    "aktivitaet": "Updates & Lizenzierung der Backup-Software",
+    "isolutions": "R, A",
+    "kunde": "C, I"
+  }
+]

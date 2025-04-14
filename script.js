@@ -1,7 +1,7 @@
 let data = [];
 
 async function loadData() {
-  const response = await fetch('data.json');
+  const response = await fetch('data.json'); // Use your actual JSON file path
   data = await response.json();
   populateFilters();
   renderTable();
@@ -13,7 +13,9 @@ function populateFilters() {
 
   data.forEach(row => {
     kategorieSet.add(row.serviceKategorie);
-    beschreibungSet.add(row.serviceBeschreibung);
+
+    const beschreibungText = row.serviceBeschreibung.replace(/<[^>]*>/g, '');
+    beschreibungSet.add(beschreibungText);
   });
 
   fillSelect('filterKategorie', kategorieSet);
@@ -31,17 +33,26 @@ function fillSelect(id, items) {
   });
 }
 
-function renderTable() {
+function renderTable(scrollToSearch = true) {
   const tbody = document.querySelector('#dataTable tbody');
   tbody.innerHTML = '';
 
   const kategorie = document.getElementById('filterKategorie').value;
-  const beschreibung = document.getElementById('filterBeschreibung').value;
+  const beschreibungFilter = document.getElementById('filterBeschreibung').value;
   const verantwortung = document.getElementById('filterVerantwortung').value;
+  const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+
+  const highlightMatch = (text) => {
+    if (!searchQuery || !text.toLowerCase().includes(searchQuery)) return text;
+    const regex = new RegExp(`(${searchQuery})`, 'gi');
+    return text.replace(regex, `<span class="highlight">$1</span>`);
+  };
 
   const filtered = data.filter(row => {
     const matchKategorie = !kategorie || row.serviceKategorie === kategorie;
-    const matchBeschreibung = !beschreibung || row.serviceBeschreibung === beschreibung;
+
+    const beschreibungText = row.serviceBeschreibung.replace(/<[^>]*>/g, '');
+    const matchBeschreibung = !beschreibungFilter || beschreibungText === beschreibungFilter;
 
     let matchVerantwortung = true;
     if (verantwortung === 'isolutions') {
@@ -50,25 +61,53 @@ function renderTable() {
       matchVerantwortung = row.kunde?.includes('R');
     }
 
-    return matchKategorie && matchBeschreibung && matchVerantwortung;
+    const rowText = `${row.serviceKategorie} ${beschreibungText} ${row.aktivitaet} ${row.isolutions} ${row.kunde}`.toLowerCase();
+    const matchSearch = !searchQuery || rowText.includes(searchQuery);
+
+    return matchKategorie && matchBeschreibung && matchVerantwortung && matchSearch;
   });
 
-  filtered.forEach(row => {
+  let firstMatchRow = null;
+
+  filtered.forEach((row, index) => {
+    const beschrPlain = row.serviceBeschreibung.replace(/<[^>]*>/g, '');
+    const beschrLinkMatch = row.serviceBeschreibung.match(/href="(.*?)"/);
+    const beschrLink = beschrLinkMatch ? beschrLinkMatch[1] : null;
+
+    const displayBeschreibung = beschrLink
+      ? `<a href="${beschrLink}" target="_blank">${highlightMatch(beschrPlain)}</a>`
+      : highlightMatch(beschrPlain);
+
     const tr = document.createElement('tr');
     tr.innerHTML = `
-      <td>${row.serviceKategorie}</td>
-      <td>${row.serviceBeschreibung}</td>
-      <td>${row.aktivitaet}</td>
-      <td>${row.isolutions || ''}</td>
-      <td>${row.kunde || ''}</td>
+      <td>${highlightMatch(row.serviceKategorie)}</td>
+      <td>${displayBeschreibung}</td>
+      <td>${highlightMatch(row.aktivitaet)}</td>
+      <td>${highlightMatch(row.isolutions || '')}</td>
+      <td>${highlightMatch(row.kunde || '')}</td>
     `;
+    if (!firstMatchRow && index === 0) {
+      firstMatchRow = tr;
+    }
     tbody.appendChild(tr);
   });
+
+  if (firstMatchRow && scrollToSearch) {
+    firstMatchRow.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
 }
 
-document.getElementById('filterKategorie').addEventListener('change', renderTable);
-document.getElementById('filterBeschreibung').addEventListener('change', renderTable);
-document.getElementById('filterVerantwortung').addEventListener('change', renderTable);
+document.getElementById('filterKategorie').addEventListener('change', () => renderTable(false));
+document.getElementById('filterBeschreibung').addEventListener('change', () => renderTable(false));
+document.getElementById('filterVerantwortung').addEventListener('change', () => renderTable(false));
+document.getElementById('searchInput').addEventListener('input', () => renderTable(true));
+
+document.getElementById('resetButton').addEventListener('click', () => {
+  document.getElementById('filterKategorie').value = '';
+  document.getElementById('filterBeschreibung').value = '';
+  document.getElementById('filterVerantwortung').value = '';
+  document.getElementById('searchInput').value = '';
+  renderTable(false);
+});
 
 loadData();
-
