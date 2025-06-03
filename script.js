@@ -1,7 +1,7 @@
 let data = [];
 
 async function loadData() {
-  const response = await fetch('data.json'); // Use your actual JSON file path
+  const response = await fetch('./data.json'); // Use your actual JSON file path
   data = await response.json();
   populateFilters();
   renderTable();
