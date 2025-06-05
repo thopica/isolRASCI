@@ -1,7 +1,7 @@
 let data = [];
 
 async function loadData() {
-  const response = await fetch('./data.json'); // Use your actual JSON file path
+  const response = await fetch('data.json');
   data = await response.json();
   populateFilters();
   renderTable();
@@ -10,16 +10,20 @@ async function loadData() {
 function populateFilters() {
   const kategorieSet = new Set();
   const beschreibungSet = new Set();
+  const serviceartSet = new Set();
 
   data.forEach(row => {
     kategorieSet.add(row.serviceKategorie);
-
     const beschreibungText = row.serviceBeschreibung.replace(/<[^>]*>/g, '');
     beschreibungSet.add(beschreibungText);
+    if (row.serviceart) {
+      serviceartSet.add(row.serviceart);
+    }
   });
 
   fillSelect('filterKategorie', kategorieSet);
   fillSelect('filterBeschreibung', beschreibungSet);
+  fillSelect('filterServiceart', serviceartSet);
 }
 
 function fillSelect(id, items) {
@@ -40,6 +44,7 @@ function renderTable(scrollToSearch = true) {
   const kategorie = document.getElementById('filterKategorie').value;
   const beschreibungFilter = document.getElementById('filterBeschreibung').value;
   const verantwortung = document.getElementById('filterVerantwortung').value;
+  const serviceartFilter = document.getElementById('filterServiceart')?.value;
   const searchQuery = document.getElementById('searchInput').value.toLowerCase();
 
   const highlightMatch = (text) => {
@@ -50,7 +55,6 @@ function renderTable(scrollToSearch = true) {
 
   const filtered = data.filter(row => {
     const matchKategorie = !kategorie || row.serviceKategorie === kategorie;
-
     const beschreibungText = row.serviceBeschreibung.replace(/<[^>]*>/g, '');
     const matchBeschreibung = !beschreibungFilter || beschreibungText === beschreibungFilter;
 
@@ -61,10 +65,12 @@ function renderTable(scrollToSearch = true) {
       matchVerantwortung = row.kunde?.includes('R');
     }
 
+    const matchServiceart = !serviceartFilter || row.serviceart === serviceartFilter;
+
     const rowText = `${row.serviceKategorie} ${beschreibungText} ${row.aktivitaet} ${row.isolutions} ${row.kunde}`.toLowerCase();
     const matchSearch = !searchQuery || rowText.includes(searchQuery);
 
-    return matchKategorie && matchBeschreibung && matchVerantwortung && matchSearch;
+    return matchKategorie && matchBeschreibung && matchVerantwortung && matchServiceart && matchSearch;
   });
 
   let firstMatchRow = null;
@@ -85,6 +91,7 @@ function renderTable(scrollToSearch = true) {
       <td>${highlightMatch(row.aktivitaet)}</td>
       <td>${highlightMatch(row.isolutions || '')}</td>
       <td>${highlightMatch(row.kunde || '')}</td>
+      <td>${highlightMatch(row.serviceart || '')}</td>
     `;
     if (!firstMatchRow && index === 0) {
       firstMatchRow = tr;
@@ -100,12 +107,16 @@ function renderTable(scrollToSearch = true) {
 document.getElementById('filterKategorie').addEventListener('change', () => renderTable(false));
 document.getElementById('filterBeschreibung').addEventListener('change', () => renderTable(false));
 document.getElementById('filterVerantwortung').addEventListener('change', () => renderTable(false));
+document.getElementById('filterServiceart')?.addEventListener('change', () => renderTable(false));
 document.getElementById('searchInput').addEventListener('input', () => renderTable(true));
 
 document.getElementById('resetButton').addEventListener('click', () => {
   document.getElementById('filterKategorie').value = '';
   document.getElementById('filterBeschreibung').value = '';
   document.getElementById('filterVerantwortung').value = '';
+  if (document.getElementById('filterServiceart')) {
+    document.getElementById('filterServiceart').value = '';
+  }
   document.getElementById('searchInput').value = '';
   renderTable(false);
 });
